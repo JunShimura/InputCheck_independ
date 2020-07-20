@@ -43,32 +43,6 @@ namespace Commontools
             }
             return value;
         }
-
-        /*
-        public static T GetNumber<T>(string meaning, T min, T max) where T:IComparable
-        {
-            T value ;
-            // 入力処理
-            while (true)
-            {
-                Console.WriteLine("{0}は幾つですか？\n範囲は{1}から{2}", meaning, min, max);
-                string s = Console.ReadLine();
-                if (value is int){
-
-                }
-                value =Converter<string,T>(Console.ReadLine());
-                if (value.CompareTo(min)>0 && value.CompareTo(max)<0 )
-                { //値は適正
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("入力エラー");
-                }
-            }
-            return value;
-        }
-        */
     }
 }
 
